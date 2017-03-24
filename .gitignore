@@ -1,0 +1,10 @@
+src/main/resources/transactions.csv
+.cache
+.classpath
+.project
+bin/
+target/
+.settings/
+project/target/
+project/project/
+
