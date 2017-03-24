@@ -32,6 +32,8 @@ object Driver extends App with LocalContext {
 
   // e.x. PredictionLabel 
   results.select($"PredictionLabel").collect().foreach { println } // Should get 'General Merchandise'
+  
+  sc.stop()
 
   private def loadData(path: String): DataFrame = {
     // Expected format: csv file with this header line:
